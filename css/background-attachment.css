@@ -1,0 +1,25 @@
+body{
+    padding-bottom: 100em; /*para generar el scroll*/
+    /*background-image: url(https://images.pexels.com/photos/534120/pexels-photo-534120.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);*/
+    background-color: hsl(290,90%,60%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    /*background-attachment: fixed;*/ /*estas dos se comentan para darle origen al parallax*/
+}
+
+p, h2{
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+h2{
+    text-align: center;
+}
+
+.parallax{
+    padding: 5em 0;
+    background-image: url(https://images.pexels.com/photos/54630/japanese-cherry-trees-flowers-spring-japanese-flowering-cherry-54630.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-attachment: fixed;
+}

@@ -1,0 +1,10 @@
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: hsl(280,100%,50%);
+    background-image: url(https://image.flaticon.com/icons/svg/874/874950.svg);
+    margin: 100px auto;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: bottom 20px right 20px;
+}

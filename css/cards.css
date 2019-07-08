@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Literata:400,600&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 2em;
+}
+
+.card{
+    width: 600px;
+    position: relative;
+}
+
+/*espacio fantasma de las imagenes, debido a que las img son inline, y tienen line-height
+se resuelve con un display block*/
+.card-img{
+    width: 100%;
+    display: block;
+}
+
+.card-title{
+    width: 100%;
+    height: 100%; /*Puede estar o no*/
+    margin: 0;
+    font-family: 'Literata', serif;
+    font-weight: 600;
+    background-color: rgba(0,0,0,.75);
+    color: #fff;
+    position: absolute;
+    bottom: 0; /*en vez de bottom puede ser top*/
+    padding: .5em;
+    text-align: center;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}

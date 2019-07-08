@@ -1,0 +1,8 @@
+body{
+    height: 100vh;
+    background-color: hsl(290,90%,60%);
+    background-image: url(https://image.flaticon.com/icons/svg/874/874950.svg), url(https://image.flaticon.com/icons/svg/346/346218.svg), url(https://image.flaticon.com/icons/svg/874/874936.svg);
+    background-repeat: no-repeat;
+    background-size: 15%, 15%, 15%;
+    background-position: 0 0, bottom 20px right 20px, center;
+}
