@@ -1,0 +1,29 @@
+body{
+    padding: 1em;
+}
+
+.temary{
+    counter-reset: classes;
+}
+
+.class{
+    counter-increment: classes;
+    counter-reset: topics
+}
+
+.class-title::before{
+    content: counter(classes) '.';
+    margin-right: .4em;
+    color: darkturquoise;
+}
+
+.class-topic{
+    counter-increment: topics;
+    padding-left: .5em;
+}
+
+.class-topic::before{
+    content: counter(classes) '.' counter(topics) '. ';
+    color: darkturquoise;
+    font-size: .75em;
+}

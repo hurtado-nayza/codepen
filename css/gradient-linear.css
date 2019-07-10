@@ -1,0 +1,17 @@
+body{
+    min-height: 100vh;
+    /*background-image: linear-gradient(to bottom left, lime, yellow, red)*/
+    
+    /*1 tamaño es circle, 2 tamaños es ellipse*/
+    /*background-image: radial-gradient(400px 200px, red,blue,yellow,lime,cyan)*/
+    /*background-image: radial-gradient(500px, red,blue,yellow,lime,cyan,purple)*/
+   /* background-image: radial-gradient(at 200px 200px, red,yellow,blue,cyan,lime)*/
+    background-image: repeating-radial-gradient(circle, white 0, white 20px, black 20px, black 40px);
+}
+
+/*.box{
+    width: 600px;
+    height: 600px;
+    margin: 2em auto;
+    background-image: radial-gradient(closest-side, yellow 100%,red 100%)
+}*/

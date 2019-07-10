@@ -1,0 +1,42 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 1em 1em 0 green;
+    margin-bottom: 35px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 35px;
+    padding: 0;
+    background-color: blueviolet;
+}
+
+.shadow1{
+    border-radius: 50%;
+    box-shadow: -6px -6px 40px rgba(0.0.0.5) inset;
+}
+
+.shadow2{
+    /*box-shadow multiple efecto bandera*/
+    box-shadow: 0 30px 0 yellow inset,
+                0 60px 0 blue inset,
+                0 90px 0 red inset;
+    background-color: transparent;
+}
+
+.shadow3{
+    /*spread negativo*/
+    box-shadow: 0 8px 10px -3px rgba(0.0.0.5);
+}
+
+.shadow4{
+    box-shadow: 0 0 0 5px blue,
+                0 0 0 10px orange,
+                0 0 0 15px green;
+    background-color: azure;
+}

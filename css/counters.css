@@ -1,0 +1,31 @@
+body{
+    font-size: 1em;
+}
+
+.chapters{
+    counter-reset: chapters;
+}
+
+.chapter{
+    counter-increment: chapter;
+}
+
+.chapter::before{
+    content: counter(chapter) '. ';
+    color: crimson;
+}
+
+ol{
+    counter-reset: list;
+}
+
+li{
+    list-style: none;
+    counter-increment: list;
+}
+
+li::before{
+    content: counters(list, '.') '. ';
+    color: deeppink;
+    font-size: .7em;
+}
