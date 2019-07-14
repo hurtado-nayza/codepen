@@ -1,0 +1,29 @@
+:root{
+    --red: 0;
+    --green: 0;
+    --blue: 0;
+}
+
+body{
+    display: grid;
+    min-height: 100vh;
+    align-content: center;
+    justify-content: center;
+    background: rgb(var(--red), var(--green), var(--blue));
+}
+
+label{
+    width: 55vw;
+    margin-bottom: 1rem;
+    background: #fff;
+    border: 1px solid black;
+    border-radius: .25rem;
+    padding: .5rem;
+    display: flex;
+}
+
+input{
+    margin-left: auto;
+    display: block;
+    width: 40vw;
+}
